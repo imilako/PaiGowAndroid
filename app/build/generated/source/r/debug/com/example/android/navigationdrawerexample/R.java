@@ -12,6 +12,51 @@ public final class R {
         public static final int planets_array=0x7f050000;
     }
     public static final class attr {
+        /** <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+<p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+         */
+        public static final int fletBackground=0x7f010006;
+        /** <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+<p>May be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+         */
+        public static final int fletPadding=0x7f010001;
+        /** <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+<p>May be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+         */
+        public static final int fletPaddingBottom=0x7f010005;
+        /** <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+<p>May be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+         */
+        public static final int fletPaddingLeft=0x7f010002;
+        /** <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+<p>May be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+         */
+        public static final int fletPaddingRight=0x7f010004;
+        /** <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+<p>May be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+         */
+        public static final int fletPaddingTop=0x7f010003;
+        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+         */
+        public static final int fletTextAppearance=0x7f010000;
     }
     public static final class dimen {
         public static final int activity_horizontal_margin=0x7f060000;
@@ -24,14 +69,16 @@ public final class R {
         public static final int earth=0x7f020003;
         public static final int ic_drawer=0x7f020004;
         public static final int ic_launcher=0x7f020005;
-        public static final int jupiter=0x7f020006;
-        public static final int mars=0x7f020007;
-        public static final int mercury=0x7f020008;
-        public static final int neptune=0x7f020009;
-        public static final int saturn=0x7f02000a;
-        public static final int uranus=0x7f02000b;
-        public static final int venus=0x7f02000c;
-        public static final int white_dragon=0x7f02000d;
+        public static final int ic_lock_black_36dp=0x7f020006;
+        public static final int ic_perm_identity_black_36dp=0x7f020007;
+        public static final int jupiter=0x7f020008;
+        public static final int mars=0x7f020009;
+        public static final int mercury=0x7f02000a;
+        public static final int neptune=0x7f02000b;
+        public static final int saturn=0x7f02000c;
+        public static final int uranus=0x7f02000d;
+        public static final int venus=0x7f02000e;
+        public static final int white_dragon=0x7f02000f;
     }
     public static final class id {
         public static final int action_settings=0x7f09000a;
@@ -51,6 +98,7 @@ public final class R {
         public static final int activity_splash=0x7f030001;
         public static final int drawer_list_item=0x7f030002;
         public static final int fragment_planet=0x7f030003;
+        public static final int login=0x7f030004;
     }
     public static final class menu {
         public static final int main=0x7f080000;
@@ -69,4 +117,119 @@ public final class R {
         public static final int hello_world=0x7f070006;
         public static final int title_activity_splash=0x7f070007;
     }
+    public static final class styleable {
+        /** Attributes that can be used with a FloatLabeledEditText.
+           <p>Includes the following attributes:</p>
+           <table>
+           <colgroup align="left" />
+           <colgroup align="left" />
+           <tr><th>Attribute</th><th>Description</th></tr>
+           <tr><td><code>{@link #FloatLabeledEditText_fletBackground com.example.android.navigationdrawerexample:fletBackground}</code></td><td></td></tr>
+           <tr><td><code>{@link #FloatLabeledEditText_fletPadding com.example.android.navigationdrawerexample:fletPadding}</code></td><td></td></tr>
+           <tr><td><code>{@link #FloatLabeledEditText_fletPaddingBottom com.example.android.navigationdrawerexample:fletPaddingBottom}</code></td><td></td></tr>
+           <tr><td><code>{@link #FloatLabeledEditText_fletPaddingLeft com.example.android.navigationdrawerexample:fletPaddingLeft}</code></td><td></td></tr>
+           <tr><td><code>{@link #FloatLabeledEditText_fletPaddingRight com.example.android.navigationdrawerexample:fletPaddingRight}</code></td><td></td></tr>
+           <tr><td><code>{@link #FloatLabeledEditText_fletPaddingTop com.example.android.navigationdrawerexample:fletPaddingTop}</code></td><td></td></tr>
+           <tr><td><code>{@link #FloatLabeledEditText_fletTextAppearance com.example.android.navigationdrawerexample:fletTextAppearance}</code></td><td></td></tr>
+           </table>
+           @see #FloatLabeledEditText_fletBackground
+           @see #FloatLabeledEditText_fletPadding
+           @see #FloatLabeledEditText_fletPaddingBottom
+           @see #FloatLabeledEditText_fletPaddingLeft
+           @see #FloatLabeledEditText_fletPaddingRight
+           @see #FloatLabeledEditText_fletPaddingTop
+           @see #FloatLabeledEditText_fletTextAppearance
+         */
+        public static final int[] FloatLabeledEditText = {
+            0x7f010000, 0x7f010001, 0x7f010002, 0x7f010003,
+            0x7f010004, 0x7f010005, 0x7f010006
+        };
+        /**
+          <p>This symbol is the offset where the {@link com.example.android.navigationdrawerexample.R.attr#fletBackground}
+          attribute's value can be found in the {@link #FloatLabeledEditText} array.
+
+
+          <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+<p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+          @attr name com.example.android.navigationdrawerexample:fletBackground
+        */
+        public static final int FloatLabeledEditText_fletBackground = 6;
+        /**
+          <p>This symbol is the offset where the {@link com.example.android.navigationdrawerexample.R.attr#fletPadding}
+          attribute's value can be found in the {@link #FloatLabeledEditText} array.
+
+
+          <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+<p>May be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+          @attr name com.example.android.navigationdrawerexample:fletPadding
+        */
+        public static final int FloatLabeledEditText_fletPadding = 1;
+        /**
+          <p>This symbol is the offset where the {@link com.example.android.navigationdrawerexample.R.attr#fletPaddingBottom}
+          attribute's value can be found in the {@link #FloatLabeledEditText} array.
+
+
+          <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+<p>May be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+          @attr name com.example.android.navigationdrawerexample:fletPaddingBottom
+        */
+        public static final int FloatLabeledEditText_fletPaddingBottom = 5;
+        /**
+          <p>This symbol is the offset where the {@link com.example.android.navigationdrawerexample.R.attr#fletPaddingLeft}
+          attribute's value can be found in the {@link #FloatLabeledEditText} array.
+
+
+          <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+<p>May be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+          @attr name com.example.android.navigationdrawerexample:fletPaddingLeft
+        */
+        public static final int FloatLabeledEditText_fletPaddingLeft = 2;
+        /**
+          <p>This symbol is the offset where the {@link com.example.android.navigationdrawerexample.R.attr#fletPaddingRight}
+          attribute's value can be found in the {@link #FloatLabeledEditText} array.
+
+
+          <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+<p>May be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+          @attr name com.example.android.navigationdrawerexample:fletPaddingRight
+        */
+        public static final int FloatLabeledEditText_fletPaddingRight = 4;
+        /**
+          <p>This symbol is the offset where the {@link com.example.android.navigationdrawerexample.R.attr#fletPaddingTop}
+          attribute's value can be found in the {@link #FloatLabeledEditText} array.
+
+
+          <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+<p>May be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+          @attr name com.example.android.navigationdrawerexample:fletPaddingTop
+        */
+        public static final int FloatLabeledEditText_fletPaddingTop = 3;
+        /**
+          <p>This symbol is the offset where the {@link com.example.android.navigationdrawerexample.R.attr#fletTextAppearance}
+          attribute's value can be found in the {@link #FloatLabeledEditText} array.
+
+
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          @attr name com.example.android.navigationdrawerexample:fletTextAppearance
+        */
+        public static final int FloatLabeledEditText_fletTextAppearance = 0;
+    };
 }

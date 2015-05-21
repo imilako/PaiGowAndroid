@@ -20,4 +20,15 @@ android {
 
 dependencies {
     compile 'com.android.support:support-v4:21.0.3'
+    compile 'com.wrapp.floatlabelededittext:library:0.0.6'
+    compile files('C:/Users/Ivan/AndroidStudioProjects/PaiGowAndroid/libs/commons-codec-1.9.jar')
+    compile files('C:/Users/Ivan/AndroidStudioProjects/PaiGowAndroid/libs/commons-logging-1.2.jar')
+    compile files('C:/Users/Ivan/AndroidStudioProjects/PaiGowAndroid/libs/fluent-hc-4.4.1.jar')
+    compile files('C:/Users/Ivan/AndroidStudioProjects/PaiGowAndroid/libs/httpclient-4.4.1.jar')
+    compile files('C:/Users/Ivan/AndroidStudioProjects/PaiGowAndroid/libs/httpclient-cache-4.4.1.jar')
+    compile files('C:/Users/Ivan/AndroidStudioProjects/PaiGowAndroid/libs/httpclient-win-4.4.1.jar')
+    compile files('C:/Users/Ivan/AndroidStudioProjects/PaiGowAndroid/libs/httpcore-4.4.1.jar')
+    compile files('C:/Users/Ivan/AndroidStudioProjects/PaiGowAndroid/libs/httpmime-4.4.1.jar')
+    compile files('C:/Users/Ivan/AndroidStudioProjects/PaiGowAndroid/libs/jna-4.1.0.jar')
+    compile files('C:/Users/Ivan/AndroidStudioProjects/PaiGowAndroid/libs/jna-platform-4.1.0.jar')
 }

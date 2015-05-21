@@ -2,6 +2,83 @@
 <items version="2" >
 
     <item
+        jar="C:\Users\Ivan\AndroidStudioProjects\PaiGowAndroid\libs\httpclient-cache-4.4.1.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="6c9ba9c38bca8742d5745bb27bcd4b9c7542ea24">
+        <dex dex="C:\Users\Ivan\AndroidStudioProjects\PaiGowAndroid\app\build\intermediates\pre-dexed\debug\httpclient-cache-4.4.1-b4fdb132fb300aeaa15651b47cc055cb036fdff6.jar" />
+    </item>
+    <item
+        jar="C:\Users\Ivan\AndroidStudioProjects\PaiGowAndroid\libs\httpclient-win-4.4.1.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="9d33b6465de36dd1298d980119ecba816e3482f6">
+        <dex dex="C:\Users\Ivan\AndroidStudioProjects\PaiGowAndroid\app\build\intermediates\pre-dexed\debug\httpclient-win-4.4.1-7d7743b0dafb04cab88e0f2126aeab7fa7300c64.jar" />
+    </item>
+    <item
+        jar="C:\Users\Ivan\.gradle\caches\modules-2\files-2.1\com.nineoldandroids\library\2.4.0\e9b63380f3a242dbdbf103a2355ad7e43bad17cb\library-2.4.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="e9b63380f3a242dbdbf103a2355ad7e43bad17cb">
+        <dex dex="C:\Users\Ivan\AndroidStudioProjects\PaiGowAndroid\app\build\intermediates\pre-dexed\debug\library-2.4.0-cfad822beee8aca98e410de53f7add2a2b2bd89b.jar" />
+    </item>
+    <item
+        jar="C:\Users\Ivan\AndroidStudioProjects\PaiGowAndroid\libs\jna-4.1.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="1c12d070e602efd8021891cdd7fd18bc129372d4">
+        <dex dex="C:\Users\Ivan\AndroidStudioProjects\PaiGowAndroid\app\build\intermediates\pre-dexed\debug\jna-4.1.0-605d7e6843e8e40f61a8e5547978f5a732170e57.jar" />
+    </item>
+    <item
+        jar="C:\Users\Ivan\AndroidStudioProjects\PaiGowAndroid\libs\jna-platform-4.1.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="23457ad1cf75c2c16763330de5565a0e67b4bc0a">
+        <dex dex="C:\Users\Ivan\AndroidStudioProjects\PaiGowAndroid\app\build\intermediates\pre-dexed\debug\jna-platform-4.1.0-b22d9f5ae1d6baadfda061550b89cae36b244f18.jar" />
+    </item>
+    <item
+        jar="C:\Users\Ivan\AndroidStudioProjects\PaiGowAndroid\libs\httpcore-4.4.1.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="f5aa318bda4c6c8d688c9d00b90681dcd82ce636">
+        <dex dex="C:\Users\Ivan\AndroidStudioProjects\PaiGowAndroid\app\build\intermediates\pre-dexed\debug\httpcore-4.4.1-2c2dbd0d76a56416bcad65f375494162ca03521e.jar" />
+    </item>
+    <item
+        jar="C:\Users\Ivan\AndroidStudioProjects\PaiGowAndroid\app\build\intermediates\exploded-aar\com.wrapp.floatlabelededittext\library\0.0.6\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="0db8e1dc3097c0db8425b339e5e720ef6e918400">
+        <dex dex="C:\Users\Ivan\AndroidStudioProjects\PaiGowAndroid\app\build\intermediates\pre-dexed\debug\classes-edd2edb0c3129730c0ab5440738671fa09a16760.jar" />
+    </item>
+    <item
+        jar="C:\Users\Ivan\AndroidStudioProjects\PaiGowAndroid\libs\commons-codec-1.9.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="9ce04e34240f674bc72680f8b843b1457383161a">
+        <dex dex="C:\Users\Ivan\AndroidStudioProjects\PaiGowAndroid\app\build\intermediates\pre-dexed\debug\commons-codec-1.9-4a02d3e71258edac2e74f079be30ff108621a613.jar" />
+    </item>
+    <item
+        jar="C:\Users\Ivan\AndroidStudioProjects\PaiGowAndroid\libs\httpmime-4.4.1.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="2f8757f5ac5e38f46c794e5229d1f3c522e9b1df">
+        <dex dex="C:\Users\Ivan\AndroidStudioProjects\PaiGowAndroid\app\build\intermediates\pre-dexed\debug\httpmime-4.4.1-aeb85cddc6a6f98cd8c555e382ff09b9ba360480.jar" />
+    </item>
+    <item
+        jar="C:\Users\Ivan\AndroidStudioProjects\PaiGowAndroid\libs\commons-logging-1.2.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="4bfc12adfe4842bf07b657f0369c4cb522955686">
+        <dex dex="C:\Users\Ivan\AndroidStudioProjects\PaiGowAndroid\app\build\intermediates\pre-dexed\debug\commons-logging-1.2-5756d8bf653fe43585a9d9ffadcab620aa811ec6.jar" />
+    </item>
+    <item
+        jar="C:\Users\Ivan\AndroidStudioProjects\PaiGowAndroid\libs\httpclient-4.4.1.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="016d0bc512222f1253ee6b64d389c84e22f697f0">
+        <dex dex="C:\Users\Ivan\AndroidStudioProjects\PaiGowAndroid\app\build\intermediates\pre-dexed\debug\httpclient-4.4.1-f950833251828e9d7ffc1bf41aacdf9a71103b6a.jar" />
+    </item>
+    <item
         jar="C:\Users\Ivan\AndroidStudioProjects\PaiGowAndroid\app\build\intermediates\exploded-aar\com.android.support\support-v4\21.0.3\classes.jar"
         jumboMode="false"
         revision="21.1.2"
@@ -9,32 +86,18 @@
         <dex dex="C:\Users\Ivan\AndroidStudioProjects\PaiGowAndroid\app\build\intermediates\pre-dexed\debug\classes-775126aba71a6fa4cab55f8f4aaaed2b25917e5b.jar" />
     </item>
     <item
+        jar="C:\Users\Ivan\AndroidStudioProjects\PaiGowAndroid\libs\fluent-hc-4.4.1.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="96fb842b68a44cc640c661186828b60590c71261">
+        <dex dex="C:\Users\Ivan\AndroidStudioProjects\PaiGowAndroid\app\build\intermediates\pre-dexed\debug\fluent-hc-4.4.1-43d42c09b6966f893fe802fac4a396bc5ff75b73.jar" />
+    </item>
+    <item
         jar="C:\Users\Ivan\AndroidStudioProjects\PaiGowAndroid\app\build\intermediates\exploded-aar\com.android.support\support-v4\21.0.3\libs\internal_impl-21.0.3.jar"
         jumboMode="false"
         revision="21.1.2"
         sha1="01ec05bfbafcc07646ba813000bf2ef11742dd03">
         <dex dex="C:\Users\Ivan\AndroidStudioProjects\PaiGowAndroid\app\build\intermediates\pre-dexed\debug\internal_impl-21.0.3-a6de72ae86989756d33789cd13f3a4ffba2d4235.jar" />
-    </item>
-    <item
-        jar="C:\Users\Ivan\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\21.0.3\support-annotations-21.0.3.jar"
-        jumboMode="false"
-        revision="21.1.2"
-        sha1="4b74cefe1f0c1b819e7260c8627a14674e37fd35">
-        <dex dex="C:\Users\Ivan\Desktop\PaiGowAndroid\app\build\intermediates\pre-dexed\debug\support-annotations-21.0.3-37cca8341271e38507a291dd2a33121bcfb6bead.jar" />
-    </item>
-    <item
-        jar="C:\Users\Ivan\Desktop\PaiGowAndroid\app\build\intermediates\exploded-aar\com.android.support\support-v4\21.0.3\libs\internal_impl-21.0.3.jar"
-        jumboMode="false"
-        revision="21.1.2"
-        sha1="01ec05bfbafcc07646ba813000bf2ef11742dd03">
-        <dex dex="C:\Users\Ivan\Desktop\PaiGowAndroid\app\build\intermediates\pre-dexed\debug\internal_impl-21.0.3-2690953a1f064043ef73832a88eedcc463d95ff4.jar" />
-    </item>
-    <item
-        jar="C:\Users\Ivan\Desktop\PaiGowAndroid\app\build\intermediates\exploded-aar\com.android.support\support-v4\21.0.3\classes.jar"
-        jumboMode="false"
-        revision="21.1.2"
-        sha1="2c91c949a45a21cdecf26e03951e46c7beec9ad8">
-        <dex dex="C:\Users\Ivan\Desktop\PaiGowAndroid\app\build\intermediates\pre-dexed\debug\classes-413f63934241b1c37c31386ab5c85ef25668d356.jar" />
     </item>
 
 </items>
